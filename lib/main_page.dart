@@ -70,6 +70,7 @@ class _MainPageState extends State<MainPage> {
     MediaScanner.loadMedia(path: file.path);
   }
 
+  
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
